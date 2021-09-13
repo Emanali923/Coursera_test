@@ -1,0 +1,59 @@
+body {
+    max-width: 767px;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+article {
+    text-align: center;
+
+}
+
+.one,
+.two,
+.three {
+    background-color: rgb(180, 182, 176);
+    font-weight: 700;
+    border: 2px solid black;
+    width: 382px;
+    height: 130px;
+    padding: 0 0 5px 10px;
+    display: inline-block;
+}
+
+.one p,
+.two p,
+.three p {
+    padding-top: 15px;
+
+
+}
+
+.one span,
+.two span,
+.three span {
+    background-color: rgb(209, 97, 125);
+    padding: 1px 5px;
+    float: right;
+    margin-bottom: 10px;
+    width: 100px;
+    text-align: center;
+    border-bottom: inherit;
+    border-left: inherit;
+
+}
+
+.two {
+    margin: 20px;
+}
+
+.two span {
+    background-color: crimson;
+}
+
+.three span {
+    background-color: rgb(255, 228, 196);
+}
