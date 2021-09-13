@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Model1</title>
+    <link rel="stylesheet" href="model1 window .css">
+</head>
+<body>
+    <h2>Our Menu</h2>
+    <article>
+        <section class="one">
+        <span>chicken</span>
+         <p> lorem ipsum dolor sit amet, consectetur 
+         adipisicing elit, sed do eiusmod tempor incidididunt 
+          ut, labore et dolore magna aliqua. Ut enim ad 
+           minim veniam, quis nostrud exercitation ullamco 
+             laboris nisi ut aliquip ex ea commodo consequat.
+             </p>
+    </section>
+    <section class="two">
+        <span>Beef</span>
+        <p>lorem ipsum dolor sit amet, consectetur <br>
+         adipisicing elit, sed do eiusmod tempor incidididunt <br>
+          ut, labore et dolore magna aliqua. Ut enim ad <br>
+           minim veniam, quis nostrud exercitation ullamco <br>
+             laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </section>
+    <section class="three">
+        <span>Sushi</span>
+        <p>lorem ipsum dolor sit amet, consectetur <br>
+         adipisicing elit, sed do eiusmod tempor incidididunt <br>
+          ut, labore et dolore magna aliqua. Ut enim ad <br>
+           minim veniam, quis nostrud exercitation ullamco <br>
+             laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </section>
+    </article>
+</body>
+</html>
+
+
+body {
+    min-width: 992px;
+    margin: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+article {
+    text-align: center;
+
+}
+
+.one,
+.two,
+.three {
+    background-color: rgb(180, 182, 176);
+    font-weight: 700;
+    border: 2px solid black;
+    width: 382px;
+    height: 130px;
+    padding: 0 0 5px 10px;
+    display: inline-block;
+}
+
+.one p,
+.two p,
+.three p {
+    padding-top: 15px;
+
+}
+
+.one span,
+.two span,
+.three span {
+    background-color: rgb(209, 97, 125);
+    padding: 1px 5px;
+    float: right;
+    margin-bottom: 10px;
+    width: 100px;
+    text-align: center;
+    border-bottom: inherit;
+    border-left: inherit;
+
+}
+
+.two {
+    margin: 20px;
+}
+
+.two span {
+    background-color: crimson;
+}
+
+.three span {
+    background-color: rgb(255, 228, 196);
+}
